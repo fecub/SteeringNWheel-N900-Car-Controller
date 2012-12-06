@@ -22,6 +22,7 @@ try:
 	
 	while True:
 		daten, addr = s.recvfrom(1024)
+		print daten
 		if (daten != 'ende'):
 			keycode = daten
 		if keycode == '111' or keycode == '116':
