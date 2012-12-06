@@ -43,8 +43,7 @@ while True:
 		y = int(coord[0])
 
 		pointer = y + screen_size_x_half
-	
-	print pointer
+		
 	root.warp_pointer(pointer,300)
 	d.sync()
 s.close()
